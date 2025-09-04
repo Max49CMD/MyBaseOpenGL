@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude all C libraries from language statistics
+dependencies/** linguist-vendored
+src/glad.c linguist-vendored
